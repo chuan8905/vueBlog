@@ -5,8 +5,12 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    menu:'1'
   },
   mutations: {
+    changeActiveMenu(state,data){
+      state.menu = data
+    }
   },
   actions: {
   },
